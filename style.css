@@ -1,0 +1,321 @@
+@font-face {
+    font-family:sprite ;
+    src: url(AktivGrotesk_Trial_Blk.ttf);
+} 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: #009b4e;
+    height: 12.2vh;
+    width: 100%;
+    display: flex;
+    position: fixed;    
+}
+.logo{
+    height: 55%;
+    padding-left: 42px;
+    padding-top: 20px;
+}
+.nav{
+    padding-left: 70px;
+    padding-top: 34px;
+}
+.nav a{
+    
+    margin: 17px;
+    margin-top: 100%;
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-size: 14px;
+    color: white;
+    font-family: sprite;
+}
+.nav a:hover{
+    color: black;
+}
+#social{
+    height: 23px;
+    width: 21px;
+    display: flex;
+    padding-left: 210%;
+    margin-top: -20px;
+    cursor: pointer;
+
+}
+#social img{
+    margin-left: 25px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(156deg) brightness(105%) contrast(101%);
+}
+#social img:hover{
+    filter: none;
+    transition: 200ms;
+}
+.section{
+    padding-top: 10px;
+    display: flex;
+    padding-top: 12.2vh;
+    background-color: black;
+    height: 99vh;
+    width: 100%;
+    
+}
+
+.logo2{
+    width: 642px;
+    height: 633px;
+    margin-top: 100px;
+    
+}
+.section2{
+    width: 100%;
+    height: 905px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-1 span{
+   color: white;
+   color: #009b4e;
+   font-size: 60PX;
+   margin-top: 200px;
+   padding-top: 200px;
+   width: 60%;   
+   justify-content:end;
+   font-size: 40px;
+}
+
+.sec-1{
+    padding-top: 6%;
+}
+.headline{
+    width: 80%;
+    height: 18%;
+}
+.button1{
+    background: yellow;
+    color:black;
+    width: 200px;
+    height: 45px;
+    font-size: large;
+    margin-top: 45px;
+    border-style: none;
+
+}
+.button1:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 36px;
+    font-family:sprite ;
+    src: url(AktivGrotesk_Trial_Blk.ttf);
+}
+.video{
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 40px;
+    width: 587px;
+    height: 317px;
+    left: -14px;
+    top: 21px;
+}
+
+.section2 h1{
+    width: 100%;
+}
+
+.text1 span{
+    width: 100%;
+    font-size: 28px;
+}
+.text2 span{
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+.button2{
+    font-weight: bold;
+    width: 200px;
+    height: 35px;
+    font-size: 100%;
+    background-color: yellow;
+    border-style: none;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #212529;
+    color: white;    
+    border-style: none;
+}
+.text{
+    height: 42%;
+}
+.linesprite{
+    width: 100%;
+    height: 57%;
+    display: flex;
+}
+.line3{
+    width: 50%;
+    height: 100%;
+}
+#line3{
+    font-family:sprite ;
+    src: url(AktivGrotesk_Trial_Blk.ttf);
+    letter-spacing: -2px;
+    font-size: 360%;
+    padding-left: 17%;
+    margin-top: 180px;
+    color: #009b4e;
+    
+}
+.sprite2{
+    width: 50%;
+    height: 100%;
+}
+.img{
+    width: 92%;
+    height: 89%;
+    padding-top: 8%;
+    padding-left: 6%;
+}
+.footer{
+    background-color: #009b4e;
+    width: 100%;
+    height: 453px;
+}
+
+.footer1{
+    width: 100%;
+    height: 300px;
+}
+
+.footer1{
+    display: flex;
+}
+.logo3{
+    height: 21%;
+    padding-left: 215px;
+    padding-top: 20px;
+}
+.A{
+    width: 33%;
+    height: 100%;
+}
+.bottomlogo{
+    width: 35%;
+    height: 22%;
+    padding-left: 42%;
+    padding-top: 22%;
+}
+.B{
+    width: 20%;
+    height: 100%;
+}
+
+#social2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding-left: 28px;
+    padding-top: 128px;
+}
+.Ba{
+    color: white;
+    width: 100%;
+    height: 14%;
+}
+
+.Ba h1{
+   
+    font-size: 15px;
+    letter-spacing: -1px;
+    padding-left: 46px;
+    padding-top: 21px;
+}
+.Baa{
+    width: 100%;
+    height: 50%;
+}
+#social2{
+    height: 27px;
+    width: 25px;
+    display: flex;
+    padding-left: 9%;
+    margin-top: -74px;
+    cursor: pointer;
+   
+}
+#social2 img{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(156deg) brightness(105%) contrast(101%);
+}
+#social2 img:hover{
+    scale: 1.3;
+}
+.face{
+    margin-left: 5px;
+}
+.C{
+    font-size: 14px;
+    width: 33%;
+    height: 100%;
+}
+.Ca{
+    width: 100%;
+    height: 20%;
+}
+.Ca h1{
+    color: white;
+    padding-top: 20px;
+    padding-left: 80px;
+    font-size: 15px;
+}
+.list{
+    padding-left: 10%;
+    font-family:sprite ;
+    src: url(AktivGrotesk_Trial_Blk.ttf);
+    
+}
+.list ul{
+    color: white;
+    list-style: none;
+    margin: -2%;
+}
+.list ul li:hover{
+    color: black;
+}
+.footer2{
+    width: 100%;
+    height: 12%;
+}
+.footer2{
+    font-size: 10px;
+}
+#foot1{
+    padding-left: 562px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+    color: white;
+}
+#foot2{
+    color: #FFFFFF;
+    padding-left: 230px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+    text-decoration: none;
+}
+#foot2 li:hover{
+    color: black;
+    cursor: pointer;
+}
+#foot2 ul li{
+    display: inline;
+    border-right: 1px solid;
+    padding-block-end: 2px;
+    padding-left: 6px;
+}
